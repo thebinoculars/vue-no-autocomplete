@@ -1,0 +1,31 @@
+{
+  "name": "vue-no-autocomplete",
+  "version": "1.0.0",
+  "description": "Vue 3 directive to disable browser autocomplete/autofill for inputs and components",
+  "main": "dist/vue-no-autocomplete.umd.cjs",
+  "module": "dist/vue-no-autocomplete.es.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "vite build"
+  },
+  "keywords": [
+    "vue3",
+    "directive",
+    "autocomplete",
+    "autofill",
+    "form",
+    "plugin"
+  ],
+  "author": "Hero",
+  "license": "MIT",
+  "peerDependencies": {
+    "vue": "^3.0.0"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0",
+    "@vitejs/plugin-vue": "^5.0.0",
+    "vue": "^3.0.0"
+  }
+}
